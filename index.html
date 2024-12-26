@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #ae2c2c;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .carousel-caption {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #ae2c2c;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer .social-icons a {
+            color: rgb(193, 39, 39);
+            margin: 0 10px;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hanni Fashion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slide Section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="sawir.png" class="d-block w-100" alt="Fashion 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Gacmo furan ku soo dhawada </h5>
+                    <p>Qiimo dhamis 100%20 ku soo dhawada.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="asmo.jpg" class="d-block w-100" alt="Fashion 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Dharkii u damebeya</h5>
+                    <p>Waxaan idin diyaariya dharkii u dambeyay .</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="IMG_2174.webp" class="d-block w-100" alt="Fashion 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hada dalbo oo hadda doono</h5>
+                    <p>Shirkada waxa ay ku taal magaladda garowe.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+
+
+         
+
+    <!-- Popular Products Section -->
+    <div class="container">
+        <h3 class="text-center mb-4">Qalab cusub</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="booso.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Boorso</h5>
+                        <p class="card-text">$25.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="CAAMIRO.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Canon Camero </h5>
+                        <p class="card-text">$30.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="GARXIIR.jpg" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Garxiir</h5>
+                        <p class="card-text">$20.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="COMP.webp" class="card-img-top" alt="Product">
+                    <div class="card-body">
+                        <h5 class="card-title">Computer Hp</h5>
+                        <p class="card-text">$40.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Adeeg Cusub</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="somalit.jpg" class="card-img-top" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Hidaha iyo Dhaqanka</h5>
+                            <p class="card-text">Macawiis iyo shaal</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="dhar dumar.jpg" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Hijjab Dress</h5>
+                            <p class="card-text">Waa dharkii dumarka</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="kabod.jpg" class="card-img-top" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Kabbo </h5>
+                            <p class="card-text">Kabaha labiska ee saraawisha jiinska</p>
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderModal">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Modal -->
+    <div class="modal fade" id="orderModal" tabindex="-1" aria-labelledby="orderModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="orderModalLabel">Order Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Fill out your details to place the order.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="product" class="form-label">Product</label>
+                            <select class="form-select" id="product">
+                                <option selected>Elegant Jacket</option>
+                                <option>Chic Dress</option>
+                                <option>Trendy Shoes</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit Order</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Hanni Fashion Store. All Rights Reserved.</p>
+            <p>Hanni Email hani@gmail.com</p>
+            <p> Hanni facebook page</p>
+            
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body
